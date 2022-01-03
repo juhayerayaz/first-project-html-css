@@ -1,0 +1,16 @@
+* {
+  background-color: black;
+  color: aliceblue;
+}
+
+.head {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.content {
+  text-align: center;
+}

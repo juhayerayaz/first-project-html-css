@@ -1,16 +1,32 @@
-* {
-  background-color: black;
-  color: aliceblue;
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
 }
-
-.head {
-  align-items: center;
+h1 {
+  font-size: 50px;
+}
+#peter {
+  color: orange;
+}
+section {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-right: 20px;
 }
-
-.content {
-  text-align: center;
+.half-width {
+  width: 50%;
+  padding-left: 3%;
+}
+.half-width img {
+  width: 80%;
+}
+.link-btn {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+.top-banner {
+  background-image: url(./images/top-banner.png);
+  background-repeat: no-repeat;
 }
